@@ -1,33 +1,34 @@
-Inviguard 🚀
-A smart surveillance system for real-time monitoring and security
+# **Inviguard** 🚀  
+*A smart surveillance system for real-time monitoring and security*  
 
-📌 Overview
-Inviguard is an IoT-based security and surveillance system designed to enhance real-time monitoring in various environments. It integrates embedded systems, sensors, and cloud connectivity to provide a reliable and automated security solution.
+## 📌 **Overview**  
+Inviguard is an IoT-based security and surveillance system designed to enhance real-time monitoring in various environments. It integrates embedded systems, sensors, and cloud connectivity to provide a reliable and automated security solution.  
 
-🔥 Features
-✅ Real-time surveillance with camera integration
-✅ Motion detection using sensors
-✅ Remote monitoring via a web/app interface
-✅ Automated alerts and notifications
-✅ Secure data logging and access control
+## 🔥 **Features**  
+✅ Real-time surveillance with camera integration <br>  
+✅ Motion detection using sensors <br>  
+✅ Remote monitoring via a web/app interface <br>  
+✅ Automated alerts and notifications <br>  
+✅ Secure data logging and access control <br>  
 
-🛠 Technologies Used
-Hardware: Raspberry Pi / ESP32 / STM32 (whichever you used)
-Sensors: (List any PIR, IR, Camera, etc.)
-Software: Python / C++ / MQTT / Firebase / Cloud Storage
-Communication Protocols: Wi-Fi, Bluetooth, MQTT
-🚀 Getting Started
-1. Prerequisites
-Install Python/C++ (Specify version)
-Required libraries: OpenCV, Flask, MQTT, etc.
-Any necessary hardware setup instructions
-2. Installation
-sh
-Copy
-Edit
+## 🛠 **Technologies Used**  
+- **Hardware:** Raspberry Pi / ESP32 / STM32 (whichever you used) <br>  
+- **Sensors:** (List any PIR, IR, Camera, etc.) <br>  
+- **Software:** Python / C++ / MQTT / Firebase / Cloud Storage <br>  
+- **Communication Protocols:** Wi-Fi, Bluetooth, MQTT <br>  
+
+## 🚀 **Getting Started**  
+### **1. Prerequisites**  
+- Install Python/C++ (Specify version) <br>  
+- Required libraries: OpenCV, Flask, MQTT, etc. <br>  
+- Any necessary hardware setup instructions <br>  
+
+### **2. Installation**  
+```sh
 git clone https://github.com/yourusername/Inviguard.git  
 cd Inviguard  
 pip install -r requirements.txt  
+ 
 (Modify based on your setup)
 
 3. Usage
