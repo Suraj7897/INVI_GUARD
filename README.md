@@ -23,21 +23,26 @@ Inviguard is an IoT-based security and surveillance system designed to enhance r
 - Required libraries: OpenCV, Flask, MQTT, etc. <br>  
 - Any necessary hardware setup instructions <br>  
 
-### **2. Installation**  
+## 🚀 **2. Installation**  
 git clone https://github.com/yourusername/Inviguard.git  
 cd Inviguard  
 pip install -r requirements.txt  
  
+ 
 (Modify based on your setup)
 
-3. Usage
+📌 3. Usage
 Run the script:
+
 sh
 Copy
 Edit
 python main.py  
-Access the web interface at local
-lhost:5000 (if applicable).
+Access the web interface at:
+localhost:5000 (if applicable)
+
+<br>
+
 📸 Screenshots / Demo
 
 https://github.com/user-attachments/assets/4589c4f4-9675-43b4-8c5c-8178b4dfdf7d
