@@ -24,7 +24,6 @@ Inviguard is an IoT-based security and surveillance system designed to enhance r
 - Any necessary hardware setup instructions <br>  
 
 ### **2. Installation**  
-```sh
 git clone https://github.com/yourusername/Inviguard.git  
 cd Inviguard  
 pip install -r requirements.txt  
