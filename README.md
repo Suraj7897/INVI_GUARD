@@ -1,45 +1,160 @@
-# **Inviguard** 🚀  
-*A smart surveillance system for real-time monitoring and security*  
+# Smart IoT Surveillance System using ESP32  
+### Real-time monitoring, motion detection, and automated security alerts
 
-## 📌 **Overview**  
-Inviguard is an IoT-based security and surveillance system designed to enhance real-time monitoring in various environments. It integrates embedded systems, sensors, and cloud connectivity to provide a reliable and automated security solution.  
+---
 
-## 🔥 **Features**  
-✅ Real-time surveillance with camera integration <br>  
-✅ Motion detection using sensors <br>  
-✅ Remote monitoring via a web/app interface <br>  
-✅ Automated alerts and notifications <br>  
-✅ Secure data logging and access control <br>  
+## Overview
 
-## 🛠 **Technologies Used**  
-- **Hardware:** Raspberry Pi / ESP32 / STM32 (whichever you used) <br>  
-- **Sensors:** (List any PIR, IR, Camera, etc.) <br>  
-- **Software:** Python / C++ / MQTT / Firebase / Cloud Storage <br>  
-- **Communication Protocols:** Wi-Fi, Bluetooth, MQTT <br>  
+This project is an IoT-based smart surveillance and security monitoring system designed for real-time environmental monitoring and automated threat detection.
 
-## 🚀 **Getting Started**  
-### **1. Prerequisites**  
-- Install Python/C++ (Specify version) <br>  
-- Required libraries: OpenCV, Flask, MQTT, etc. <br>  
-- Any necessary hardware setup instructions <br>  
+Built using embedded hardware, sensors, and wireless communication, the system continuously monitors activity, detects motion, and sends alerts for faster response and remote visibility.
 
-## 🚀 **2. Installation**  
-git clone https://github.com/yourusername/Inviguard.git  
-cd Inviguard  
-pip install -r requirements.txt  
- 
- 
-(Modify based on your setup)
+The goal of this project is to create a reliable, low-cost, and scalable surveillance platform for homes, offices, and industrial environments.
 
-📌 3. Usage
-Run the script:
+---
 
-sh
-Copy
-Edit
-python main.py  
-Access the web interface at:
-localhost:5000 (if applicable)
+## Key Features
+
+✅ Real-time surveillance monitoring
+
+✅ Motion detection using sensors
+
+✅ Embedded hardware-based automation
+
+✅ Remote monitoring via connected interface
+
+✅ Automated alerts and notifications
+
+✅ Secure activity logging
+
+✅ Wireless communication and IoT integration
+
+✅ Expandable architecture for AI-based monitoring
+
+---
+
+## Hardware Used
+
+- ESP32
+- STM32 *(if used)*
+- Raspberry Pi *(if used)*
+- PIR Motion Sensor
+- IR Sensor
+- Camera Module
+- Buzzer / Alert Module
+- Relay Module *(optional)*
+- Power Supply Unit
+
+---
+
+## Software Stack
+
+### Firmware / Embedded
+- Embedded C / C++
+
+### Backend / Logic
+- Python
+
+### Communication
+- MQTT
+- Wi-Fi
+- Bluetooth
+
+### Cloud / Storage
+- Firebase / Cloud Storage
+
+### Computer Vision *(if used)*
+- OpenCV
+
+---
+
+## System Workflow
+
+1. Sensors continuously monitor the environment
+2. Motion/activity is detected
+3. Embedded controller processes event
+4. Camera captures monitoring feed
+5. Alert is triggered
+6. Data is sent over MQTT/Wi-Fi
+7. Remote monitoring interface displays status
+8. Logs are stored securely
+
+---
+
+## Applications
+
+- Home Security
+- Smart Office Monitoring
+- Warehouse Security
+- Industrial Surveillance
+- Restricted Access Monitoring
+- Remote Asset Protection
+
+---
+
+## Project Structure
+
+```bash
+smart-iot-surveillance-system-esp32/
+│
+├── firmware/
+├── sensors/
+├── camera/
+├── communication/
+├── cloud/
+├── docs/
+├── images/
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Suraj7897/smart-iot-surveillance-system-esp32.git
+```
+
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Run
+
+```bash
+python main.py
+```
+
+---
+
+## Future Improvements
+
+- Edge AI threat classification
+- Face detection / recognition
+- Mobile app integration
+- Cloud dashboard
+- Smart analytics
+- Energy optimization
+- Multi-camera support
+
+---
+
+## Author
+
+### Suraj Mukherjee
+
+Embedded Systems | IoT | Firmware | Edge AI
+
+GitHub:
+https://github.com/Suraj7897
 
 <br>
 
